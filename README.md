@@ -3058,6 +3058,7 @@ AddButton(Main, {
 
 local Main = MakeTab({Name = "الرؤوس والارجل"})
 AddSection(Main, {"الأرجل"})
+
 AddButton(Main, {
     Name = " رجل مقطوعه للبنت ",
     Callback = function()
@@ -3159,7 +3160,9 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes", 9e9):WaitForChild("ChangeCharacterBody", 9e9):InvokeServer(unpack(args))
     end
 })
+
 AddSection(Main, {"الرؤوس"})
+
 AddButton(Main, {
     Name = " راس روبوت او فضائي ",
     Callback = function()
@@ -3202,10 +3205,7 @@ AddButton(Main, {
 
 
 local Main = MakeTab({Name = " الاجسام"})
-
-
 AddSection(Main, {" اجسام اولاد وبنات"})
-
 
 AddButton(Main, {
     Name = "  جسم بنت خصر صغير  ",
@@ -3405,7 +3405,6 @@ AddButton(Main, {
     end
 })
 
-
 AddSection(Main, {" اجسام القزم "})
 
 AddButton(Main, {
@@ -3498,9 +3497,7 @@ AddButton(Main, {
     end
 })
 
-
 AddSection(Main, {" اجسام غريبه عجييه "})
-
 
 AddButton(Main, {
     Name = "  جسم روبوت  ",
@@ -3557,7 +3554,6 @@ AddButton(Main, {
 })
 
 local Main = MakeTab({Name = " الملابس"})
-
 AddSection(Main, {"اولاً يا عزيز ازل الملابس لضمان جوده افضل"})
 
 AddButton(Main, {
@@ -3713,6 +3709,7 @@ AddButton(Main, {
 
 
 AddSection(Main, {" أحذية الشيطان "})
+
 AddButton(Main, {
     Name = " حذاء الشيطان الأبيض ",
     Callback = function()
@@ -3722,6 +3719,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " حذاء الشيطان الأسود والأحمر ",
     Callback = function()
@@ -3731,6 +3729,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " حذاء الشيطان الأسود ",
     Callback = function()
@@ -3742,6 +3741,7 @@ AddButton(Main, {
 })
 
 AddSection(Main, {" شوك "})
+
 AddButton(Main, {
     Name = " شوك أسود بالذراع والساق ",
     Callback = function()
@@ -3751,6 +3751,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " شوك أبيض بالذراع والساق ",
     Callback = function()
@@ -3760,6 +3761,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " شوك أسود حول كامل الجسم ",
     Callback = function()
@@ -3771,6 +3773,7 @@ AddButton(Main, {
 })
 
 AddSection(Main, {" باقات ورد "})
+
 AddButton(Main, {
     Name = " باقة ورد سوداء ",
     Callback = function()
@@ -3780,6 +3783,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " باقة ورد حمراء ",
     Callback = function()
@@ -3789,6 +3793,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " باقة ورد وردية ",
     Callback = function()
@@ -3798,6 +3803,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " باقة ورد بيضاء ",
     Callback = function()
@@ -3809,6 +3815,7 @@ AddButton(Main, {
 })
 
 AddSection(Main, {" ضمادات الذراع "})
+
 AddButton(Main, {
     Name = " ضمادات الذراع لون أسود ",
     Callback = function()
@@ -3818,6 +3825,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " ضمادات الذراع لون أبيض ",
     Callback = function()
@@ -3829,6 +3837,7 @@ AddButton(Main, {
 })
 
 AddSection(Main, {" قفازات "})
+
 AddButton(Main, {
     Name = " قفازات اليد طويلة لون أسود ",
     Callback = function()
@@ -3838,6 +3847,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " قفازات قصيرة لون أسود ",
     Callback = function()
@@ -3847,6 +3857,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " قفازات اليد طويلة لون أحمر ",
     Callback = function()
@@ -3856,6 +3867,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " قفازات اليد طويلة لون أبيض ",
     Callback = function()
@@ -3865,6 +3877,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " قفازات قصيرة لون أبيض ",
     Callback = function()
@@ -3874,6 +3887,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " قفازات اليد طويلة لون أزرق ",
     Callback = function()
@@ -3883,6 +3897,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " قفازات قصيرة لون أزرق ",
     Callback = function()
@@ -3892,6 +3907,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " قفازات اليد طويلة لون وردي ",
     Callback = function()
@@ -3901,6 +3917,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " قفازات قصيرة لون وردي ",
     Callback = function()
@@ -3910,6 +3927,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " قفازات اليد طويلة لون أخضر ",
     Callback = function()
@@ -3919,6 +3937,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " قفازات قصيرة لون أخضر ",
     Callback = function()
@@ -3928,6 +3947,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " قفاز غريب ",
     Callback = function()
@@ -3937,6 +3957,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " قفازات حمراء مخططة لون أبيض ",
     Callback = function()
@@ -3946,6 +3967,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " قفازات تتناسب على البنت أو الولد ",
     Callback = function()
@@ -3955,6 +3977,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " قفازات وردية للبنات ",
     Callback = function()
@@ -3964,6 +3987,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " قفازات سوداء جميلة ",
     Callback = function()
@@ -3973,6 +3997,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " قفازات بيضاء جميلة ",
     Callback = function()
@@ -3982,6 +4007,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " قفازات خضراء جميلة ",
     Callback = function()
@@ -3991,6 +4017,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " قفازات مخططة أسود وأحمر ",
     Callback = function()
@@ -4000,6 +4027,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " قفازات مخططة أبيض وأسود ",
     Callback = function()
@@ -4011,6 +4039,7 @@ AddButton(Main, {
 })
 
 AddSection(Main, {" جاكيتات "})
+
 AddButton(Main, {
     Name = " جاكيت أسود مفتوح ",
     Callback = function()
@@ -4020,6 +4049,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " جاكيت أسود فيه هيكل عظمي مفتوح ",
     Callback = function()
@@ -4029,6 +4059,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " جاكيت أسود وأبيض مفتوح ",
     Callback = function()
@@ -4038,6 +4069,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " جاكيت أبيض مفتوح ",
     Callback = function()
@@ -4047,6 +4079,7 @@ AddButton(Main, {
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes",9e9):WaitForChild("Wear",9e9):InvokeServer(unpack(args))
     end
 })
+
 AddButton(Main, {
     Name = " جاكيت أسود مفتوح حلو ",
     Callback = function()
