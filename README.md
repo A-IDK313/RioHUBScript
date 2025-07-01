@@ -2304,6 +2304,7 @@ createBangToggle("البانج / 1", -1, false)
 createBangToggle("البانج / 2", -1.5, false)
 createBangToggle("بانج الوجه / 1", 1, true)
 createBangToggle("بانج الوجه / 2", 1, true)
+
 local Main = MakeTab({Name = "الحماية"})
 AddButton(Main, {
   Name = "سكربت يقتل الناس بالقنفة",
@@ -2325,6 +2326,7 @@ AddButton(Main, {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))() 
   end
 })
+
 local Main = MakeTab({Name = "اللاعب"})
 AddTextBox(Main, {
   Name = "السرعه",
