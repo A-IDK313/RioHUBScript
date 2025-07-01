@@ -2223,27 +2223,6 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild("1NoMoto1rVehicle1s"):Fir
 })
 
 local Main = MakeTab({Name = "التخريب"})
-AddSection(Main, {"القتلات"})
-local Players = game:GetService("Players")
-local LocalPlayer = Players.LocalPlayer
-
-local playerNames = {}
-for _, plr in ipairs(Players:GetPlayers()) do
-    if plr ~= LocalPlayer then
-        table.insert(playerNames, plr.Name)
-    end
-end
-
-local selectedPlayerName = nil
-
-local Dropdown = AddDropdown(Main, {
-    Name = "اختر الضحيه",
-    Options = playerNames,
-    Default = playerNames[1],
-    Callback = function(Value)
-        selectedPlayerName = Value
-    end
-})
 
 AddButton(Main, {
     Name = "القتل بالسفينه",
@@ -2620,26 +2599,6 @@ AddButton(Main, {
         end
     end
 }) 
-AddSection(Main, {"الفلنجات"})
-local Players = game:GetService("Players")
-local LocalPlayer = Players.LocalPlayer
-local SelectedPlayerName = nil
-
-local playerNames = {}
-for _, player in ipairs(Players:GetPlayers()) do
-    if player ~= LocalPlayer then
-        table.insert(playerNames, player.Name)
-    end
-end
-
-local Dropdown = AddDropdown(Main, {
-    Name = "اختر لاعب",
-    Options = playerNames,
-    Default = playerNames[1] or "",
-    Callback = function(Value)
-        SelectedPlayerName = Value
-    end
-})
 
 AddButton(Main, {
     Name = "سحب بالباص",
@@ -2740,6 +2699,7 @@ AddButton(Main, {
         humanoid:ChangeState(Enum.HumanoidStateType.RunningNoPhysics)
     end 
 })
+
 local Main = MakeTab({Name = "التخريب V2"})
 AddSection(Main, {" قتل كنبه"})
 
