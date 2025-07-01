@@ -2665,7 +2665,7 @@ AddButton(Main, {
     local function createTeleportTool()
         local tool = Instance.new("Tool")
         tool.RequiresHandle = false
-        tool.Name = " تنقل || TRUNKS"
+        tool.Name = " تنقل || Rio"
 
         tool.Activated:Connect(function()
             local hitPos = mouse.Hit.p + Vector3.new(0, 2.5, 0)
