@@ -2655,53 +2655,8 @@ AddButton(Main, {
         floatAbovePlayerHead()
     end    
 })
+
 local Main = MakeTab({Name = "التنقل"})
-AddButton(Main, {
-  Name = "اداة التنقل",
-  Callback = function()
-    local player = game.Players.LocalPlayer
-    local mouse = player:GetMouse()
-
-    local function createTeleportTool()
-        local tool = Instance.new("Tool")
-        tool.RequiresHandle = false
-        tool.Name = " تنقل || Rio"
-
-        tool.Activated:Connect(function()
-            local hitPos = mouse.Hit.p + Vector3.new(0, 2.5, 0)
-            local pos = CFrame.new(hitPos)
-            player.Character.HumanoidRootPart.CFrame = pos
-        end)
-
-        tool.Parent = player.Backpack
-    end
-
-    -- Cria a ferramenta inicialmente
-    createTeleportTool()
-
-    -- Adiciona a ferramenta novamente quando o personagem é reaparecido
-    player.CharacterAdded:Connect(function()
-        wait(0.1) -- Espera um curto período de tempo para garantir que o inventário seja carregado
-        createTeleportTool()
-    end)
-  end
-})
-
-local Slider = AddSlider(Main, {
-  Name = "مـسـافـة الـتـنـقـل",
-  MinValue = 10,
-  MaxValue = 50,
-  Default = 25,
-  Increase = 1,
-  Callback = function(Value)
-    
-  end
-})
-
--- Function to teleport to Teleport
-local function teleportToCenter()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(136, 4, 117)
-end
 AddSection(Main, {"التنقلات"})
 AddButton(Main, {
     Name = "لوحة 1",
