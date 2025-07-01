@@ -7999,3 +7999,1088 @@ AddButton(Main, {
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t"):FireServer(unpack(args))	
   end
 })
+
+AddButton(Main, {
+  Name = " تاخذ تحكم بيت  25",
+  Callback = function()
+  local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 25
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "تاخذ تحكم بيت 26",
+  Callback = function()
+  local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 26
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "تاخذ تحكم بيت 27",
+  Callback = function()
+  local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 27
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "تاخذ تحكم بيت 28",
+  Callback = function()
+  local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 28
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "تاخذ تحكم بيت 29",
+  Callback = function()
+  local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 29
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "تاخذ تحكم بيت 30",
+  Callback = function()
+  local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 30
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "تاخذ تحكم بيت 31",
+  Callback = function()
+  local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 31
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "تاخذ تحكم بيت 33",
+  Callback = function()
+  local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 33
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "تاخذ تحكم بيت 34",
+  Callback = function()
+  local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 34
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = " تاخذ تحكم بيت 35",
+  Callback = function()
+  local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 35
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "تاخذ تحكم بيت 36",
+  Callback = function()
+  local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 36
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "تاخذ تحكم بيت 37",
+  Callback = function()
+  local args = {
+    [1] = "GivePermissionLoopToServer",
+    [2] = game:GetService("Players").LocalPlayer,
+    [3] = 37
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Playe1rTrigge1rEven1t"):FireServer(unpack(args))
+  end
+})
+
+local Main = MakeTab({Name = "السكربتات"})
+AddSection(Main, {"اسم السكربت في البحث TrollX"})
+
+AddButton(Main, {
+  Name = "سكربت المطور Troll-X",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmidd409/TrollX-V2/refs/heads/main/TrollX40%2540%25409%25409%25409%25409%25409"))()
+  end
+})
+
+AddSection(Main, {"سكربتات مفيدة"})
+
+AddButton(Main, {
+  Name = "سكربت ايمبوت",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HomeMadeScripts/Camlock-aimlock/main/obf_Wxr6QgzF76G1y2Ch77KN4Zt5Nz0A6GIl61gitv3mRR2t3V103al5d0g26s4KY04r.lua.txt"))()
+end
+})
+
+AddButton(Main, {
+  Name = "سكربت طيران سيارات",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmidd409/TrollX-V2/refs/heads/main/TrollXVfly.txt"))()
+end
+})
+
+AddButton(Main, {
+  Name = "سكربت طيران",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmidd409/Orion/refs/heads/main/%D8%B3%D9%83%D8%B1%D8%A8%D8%AA%D9%8A%20%D9%85%D8%A7%D9%84%20%D8%B7%D9%8A%D8%B1%D8%A7%D9%86"))()
+end
+})
+
+AddButton(Main, {
+  Name = "سكربت يسوي فلنق للسيارات",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmidd409/TrollX-V2/refs/heads/main/Vfly_TrollX.txt"))()
+end
+})
+
+AddButton(Main, {
+  Name = "سكربت شفت لوك ينطيك قفل شاشة",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sector9922/SECTOR-SHIFT-LOCK/main/SECTOR%20SHIFT%20LOCK"))()
+end
+})
+
+AddSection(Main, {"سكربتات اجنبية"})
+
+AddButton(Main, {
+  Name = "سكربت مشيات",
+  Callback = function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-AFEM-14048"))()
+end
+})
+
+AddButton(Main, {
+  Name = "سكربت R4D",
+  Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+end
+})
+
+AddButton(Main, {
+  Name = "سكربت روجيبس لجميع المابات",
+  Callback = function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-rochips-universal-18294"))()
+end
+})
+
+AddButton(Main, {
+  Name = "سكربت تخريب",
+  Callback = function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-New-Update-24681"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "سكربت الهلال | Scrpit Atomic",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/n0kc/AtomicHub/main/Map-Al-Biout.lua"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "سكربت SanderX",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sXPiterXs1111/Sanderx3.25/main/sanderxv3.25.lua"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "سكربت رحمة",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/n0kc/AtomicHub/main/Map-Al-Biout.lua"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "سكربت R4D",
+  Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+  end
+})
+
+AddButton(Main, {
+  Name = "سكربت RealHub",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Rael-Hub/main/main.txt"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "سكربت تخريب",
+  Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Brook%20Haven%20Gui'))()
+  end
+})
+
+AddButton(Main, {
+  Name = "سكربت Premium",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gjQUGX/DXVUSEW/refs/heads/main/Sunterium-Hub/DELTA"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "سكربت Mango",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/rogelioajax/lua/main/MangoHub", true))()
+  end
+})
+
+AddButton(Main, {
+  Name = "سكربت شادو",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realgengar/Brookhaven/refs/heads/main/Source.lua"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "سكربت Universal",
+  Callback = function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-rochips-universal-18294"))()
+  end
+})
+
+local Main = MakeTab({Name = "سكربتات الصملة"})
+
+AddButton(Main, {
+  Name = "سكربت يقتل الناس بالقنفة",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "سكربت يطير او يقتل اي احد يطيرك",
+  Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FE-Fling-GUI-10927"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "سكربت محد يكدر يطيرك",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))() 
+  end
+})
+
+AddButton(Main, {
+  Name = "سكربت Infinity Yield ",
+  Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  end
+})
+
+AddButton(Main, {
+  Name = "سكربت تخريب",
+  Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Brook%20Haven%20Gui'))()
+  end
+})
+
+AddButton(Main, {
+  Name = "سكربت رحمة",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/n0kc/AtomicHub/main/Map-Al-Biout.lua"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "سكربت يسوي فلنق للسيارات",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmidd409/TrollX-V2/refs/heads/main/Vfly_TrollX.txt"))()
+end
+})
+
+local Main = MakeTab({Name = "سكربتاتي"})
+local Paragraph = AddParagraph(Main, {"للاسف ماعندي سكربتات هواي بس سكربتات صديقي رح تعوض", "bom dia meus manos"})
+AddSection(Main, {"سكربتاتي"})
+
+AddButton(Main, {
+  Name = "سكربتي الطيران",
+  Callback = function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/mhmdsx/FlyTrunksHub/refs/heads/main/Protected_1335443716952436.lua.txt")))()
+  end
+})
+
+AddSection(Main, {"سكربتات صديقي Trollx"})
+
+AddButton(Main, {
+  Name = "سكربت نسخ سكنات",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmidd409/-/refs/heads/main/CopyAvatar.txt"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "سكربت طيران سيارة",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmidd409/TrollX-V2/refs/heads/main/Vfly_TrollX.txt"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "سكربت اغاني",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmidd409/TrollX-V2/refs/heads/main/MusicTrollX.txt"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "سكربت التدمير",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmidd409/TrollX-V2/refs/heads/main/HackerBrookhaven_TrollX.txt"))()
+  end
+})
+
+local Main = MakeTab({Name = "الأسماء"})
+AddSection(Main, {"الاسم"})
+
+AddTextBox(Main, {
+Name = "الاسم",
+Default = "",
+PlaceholderText = "ضع الاسم",
+ClearText = true,
+Callback = function(value)
+local args = {[1] = "RolePlayName", [2] = value};
+        game:GetService("ReplicatedStorage").RE:FindFirstChild(
+            "1RPNam1eTex1t"):FireServer(unpack(args));
+    end
+})
+
+-- Variáveis para rastrear os estados dos toggles
+local isNameActive = false
+local isBioActive = false
+
+-- Toggle para ativar/desativar o RGB Name
+Toggle = AddToggle(Main, {
+Name = "تلوين الاسم",
+Default = false,
+Callback = function(value)
+isNameActive = value -- Define o estado baseado no toggle
+        if isNameActive then
+            print("RGB Name ativado")
+        else
+            print("RGB Name desativado")
+        end
+    end    
+})
+
+AddSection(Main, {"البايو"})
+
+AddTextBox(Main, {
+Name = "البايو",
+Default = "",
+PlaceholderText = "ضع البايو",
+ClearText = true,
+Callback = function(value)
+     local args = {[1] = "RolePlayBio", [2] = value};
+        game:GetService("ReplicatedStorage").RE:FindFirstChild(
+            "1RPNam1eTex1t"):FireServer(unpack(args));
+    end
+})
+
+-- Toggle para ativar/desativar o RGB BIO
+Toggle = AddToggle(Main, {
+Name = "تلوين البايو",
+Default = false,
+Callback = function(value)
+isBioActive = value -- Define o estado baseado no toggle
+        if isBioActive then
+            print("RGB BIO ativado")
+        else
+            print("RGB BIO desativado")
+        end
+    end    
+})
+
+-- Thread separada para o RGB Name
+spawn(function()
+    local vibrantColors = {
+        Color3.fromRGB(255, 0, 0),   -- Vermelho
+        Color3.fromRGB(0, 255, 0),   -- Verde
+        Color3.fromRGB(0, 0, 255),   -- Azul
+        Color3.fromRGB(255, 255, 0), -- Amarelo
+        Color3.fromRGB(255, 0, 255), -- Magenta
+        Color3.fromRGB(0, 255, 255), -- Ciano
+        Color3.fromRGB(255, 165, 0), -- Laranja
+        Color3.fromRGB(128, 0, 128), -- Roxo
+        Color3.fromRGB(255, 20, 147) -- Rosa choque
+    }
+
+    while true do
+        if isNameActive then
+            local randomColor = vibrantColors[math.random(#vibrantColors)]
+            local args = {
+                [1] = "PickingRPNameColor",
+                [2] = randomColor
+            }
+            game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eColo1r"):FireServer(unpack(args))
+        end
+        wait(0.7) -- Ajuste o tempo de espera conforme necessário
+    end
+end)
+
+-- Thread separada para o RGB BIO
+spawn(function()
+    local vibrantColors = {
+        Color3.fromRGB(255, 0, 0),   -- Vermelho
+        Color3.fromRGB(0, 255, 0),   -- Verde
+        Color3.fromRGB(0, 0, 255),   -- Azul
+        Color3.fromRGB(255, 255, 0), -- Amarelo
+        Color3.fromRGB(255, 0, 255), -- Magenta
+        Color3.fromRGB(0, 255, 255), -- Ciano
+        Color3.fromRGB(255, 165, 0), -- Laranja
+        Color3.fromRGB(128, 0, 128), -- Roxo
+        Color3.fromRGB(255, 20, 147) -- Rosa choque
+    }
+
+    while true do
+        if isBioActive then
+            local randomColor = vibrantColors[math.random(#vibrantColors)]
+            local args = {
+                [1] = "PickingRPBioColor",
+                [2] = randomColor
+            }
+            game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eColo1r"):FireServer(unpack(args))
+        end
+        wait(0.7) -- Ajuste o tempo de espera conforme necessário
+    end
+end)
+
+AddSection(Main, {"اسماء اولاد"})
+
+AddButton(Main, {
+  Name = "محمد",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "محمد"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "احمد",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "احمد"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "علي",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "علي"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "قاسم",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "قاسم"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "عباس",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "عباس"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "محمود",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "محمود"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "جواد",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "جواد"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "عماد",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "عماد"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "عبدالله",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "عبدالله"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "مراد",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "مراد"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "عليوي",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "عليوي"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "عبوسي",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "عبوسي"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "عبيس",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "عبيس"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "عمر",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "عمر"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "جاسم",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "جاسم"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddSection(Main, {"اسماء بنات"})
+
+AddButton(Main, {
+  Name = "لين",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "لين"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "ايلين",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "ايلين"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "نيفين",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "نيفين"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "رقية",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "رقية"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "زينب",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "زينب"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "سونا",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "سونا"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "حواء",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "حواء"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "نور",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "نور"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "رفيف",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "رفيف"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "مريم",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "مريم"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "مرام",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "مرام"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "رسل",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "رسل"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "ريم",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "ريم"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "فاطمة",
+  Callback = function()
+local args = {
+    [1] = "RolePlayName",
+    [2] = "فاطمة"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
+  end
+})
+
+local Main = MakeTab({Name = "الجيم باسات"})
+local Paragraph = AddParagraph(Main, {"مـلـحـوضـة  :  تـضـهـر فـقـط لـك", "bom dia meus manos"})
+
+AddButton(Main, {
+  Name = "اخـذ VIP",
+  Desc = "", -- Optional
+  Callback = function()
+local lib = {
+	['notification'] = loadstring(game:HttpGetAsync("https://pastefy.app/nXmxy6M0/raw"))(),
+	['cooldown'] = false,
+	['username'] = 'unknown',
+	['bw'] = 'unknown'
+}
+
+lib.notification:message{
+	Name = "Darkness Hub Notification",
+	Description = "Got Vip Gamepass!",
+	Icon = 85102932341647
+}
+ game:GetService("Players").LocalPlayer.PlayersBag.VIP.Value = true
+  end
+})
+
+AddButton(Main, {
+  Name = "اخـذ Premium",
+  Desc = "", -- Optional
+  Callback = function()
+local lib = {
+	['notification'] = loadstring(game:HttpGetAsync("https://pastefy.app/nXmxy6M0/raw"))(),
+	['cooldown'] = false,
+	['username'] = 'unknown',
+	['bw'] = 'unknown'
+}
+
+lib.notification:message{
+	Name = "Darkness Hub Notification",
+	Description = "Got Premium Gamepass!",
+	Icon = 100893456751976
+}
+game:GetService("Players").LocalPlayer.PlayersBag.SilverPass.Value = true
+  end
+})
+
+AddButton(Main, {
+  Name = "اخـذ SPEED GAMEPASS",
+  Desc = "", -- Optional
+  Callback = function()
+ local lib = {
+	['notification'] = loadstring(game:HttpGetAsync("https://pastefy.app/nXmxy6M0/raw"))(),
+	['cooldown'] = false,
+	['username'] = 'unknown',
+	['bw'] = 'unknown'
+}
+
+lib.notification:message{
+	Name = "Darkness Hub Notification",
+	Description = "Got Speed Gamepass!",
+	Icon = 127553905855586
+}
+ game:GetService("Players").LocalPlayer.PlayersBag.SpeedPass200.Value = true
+  end
+})
+
+AddButton(Main, {
+  Name = "اخـذ MUSIC",
+  Desc = "", -- Optional
+  Callback = function()
+local lib = {
+	['notification'] = loadstring(game:HttpGetAsync("https://pastefy.app/nXmxy6M0/raw"))(),
+	['cooldown'] = false,
+	['username'] = 'unknown',
+	['bw'] = 'unknown'
+}
+
+lib.notification:message{
+	Name = "Darkness Hub Notification",
+	Description = "Got Music Gamepass!",
+	Icon = 77765073982300
+}
+ game:GetService("Players").LocalPlayer.PlayersBag.MusicPass.Value = true
+  end
+})
+
+AddButton(Main, {
+  Name = "اخـذ HORSE",
+  Desc = "", -- Optional
+  Callback = function()
+ local lib = {
+	['notification'] = loadstring(game:HttpGetAsync("https://pastefy.app/nXmxy6M0/raw"))(),
+	['cooldown'] = false,
+	['username'] = 'unknown',
+	['bw'] = 'unknown'
+}
+
+lib.notification:message{
+	Name = "Darkness Hub Notification",
+	Description = "Got Horse Gamepass!",
+	Icon = 127553905855586
+}
+ game:GetService("Players").LocalPlayer.PlayersBag.HorsePass.Value = true
+  end
+})
+
+AddButton(Main, {
+  Name = "اخـذ VEHICLEPACK",
+  Desc = "", -- Optional
+  Callback = function()
+ local lib = {
+	['notification'] = loadstring(game:HttpGetAsync("https://pastefy.app/nXmxy6M0/raw"))(),
+	['cooldown'] = false,
+	['username'] = 'unknown',
+	['bw'] = 'unknown'
+}
+
+lib.notification:message{
+	Name = "Darkness Hub Notification",
+	Description = "Got VehiclePack Gamepass!",
+	Icon = 127553905855586
+}
+ game:GetService("Players").LocalPlayer.PlayersBag.VehiclePackPass.Value = true
+  end
+})
+
+AddButton(Main, {
+  Name = "اخـذ Mansion Gamepass",
+  Desc = "", -- Optional
+  Callback = function()
+ local lib = {
+	['notification'] = loadstring(game:HttpGetAsync("https://pastefy.app/nXmxy6M0/raw"))(),
+	['cooldown'] = false,
+	['username'] = 'unknown',
+	['bw'] = 'unknown'
+}
+
+lib.notification:message{
+	Name = "Darkness Hub Notification",
+	Description = "Got Mansion Gamepass!",
+	Icon = 127553905855586
+}
+ game:GetService("Players").LocalPlayer.PlayersBag.MansionPass.Value = true
+  end
+})
+
+AddButton(Main, {
+  Name = "اخـذ Face Gamepass",
+  Desc = "", -- Optional
+  Callback = function()
+ local lib = {
+	['notification'] = loadstring(game:HttpGetAsync("https://pastefy.app/nXmxy6M0/raw"))(),
+	['cooldown'] = false,
+	['username'] = 'unknown',
+	['bw'] = 'unknown'
+}
+
+lib.notification:message{
+	Name = "Darkness Hub Notification",
+	Description = "Got Face Gamepass!",
+	Icon = 127553905855586
+}
+ game:GetService("Players").LocalPlayer.PlayersBag.FacePass.Value = true
+  end
+})
+
+AddButton(Main, {
+  Name = "اخـذ Disaster Gamepass",
+  Desc = "", -- Optional
+  Callback = function()
+ local lib = {
+	['notification'] = loadstring(game:HttpGetAsync("https://pastefy.app/nXmxy6M0/raw"))(),
+	['cooldown'] = false,
+	['username'] = 'unknown',
+	['bw'] = 'unknown'
+}
+
+lib.notification:message{
+	Name = "Darkness Hub Notification",
+	Description = "Got Disaster Gamepass!",
+	Icon = 127553905855586
+}
+ game:GetService("Players").LocalPlayer.PlayersBag.DisasterPass.Value = true
+  end
+})
+
+AddButton(Main, {
+  Name = "اخـذ Boat Gamepass",
+  Desc = "", -- Optional
+  Callback = function()
+ local lib = {
+	['notification'] = loadstring(game:HttpGetAsync("https://pastefy.app/nXmxy6M0/raw"))(),
+	['cooldown'] = false,
+	['username'] = 'unknown',
+	['bw'] = 'unknown'
+}
+
+lib.notification:message{
+	Name = "Darkness Hub Notification",
+	Description = "Got Boat Gamepass!",
+	Icon = 127553905855586
+}
+ game:GetService("Players").LocalPlayer.PlayersBag.BoatPass.Value = true
+  end
+})
+
+AddButton(Main, {
+  Name = "اخـذ PentHouse Gamepass",
+  Desc = "", -- Optional
+  Callback = function()
+ local lib = {
+	['notification'] = loadstring(game:HttpGetAsync("https://pastefy.app/nXmxy6M0/raw"))(),
+	['cooldown'] = false,
+	['username'] = 'unknown',
+	['bw'] = 'unknown'
+}
+
+lib.notification:message{
+	Name = "Darkness Hub Notification",
+	Description = "Got PentHouse Gamepass!",
+	Icon = 127553905855586
+}
+ game:GetService("Players").LocalPlayer.PlayersBag.PenthousePass.Value = true
+  end
+})
